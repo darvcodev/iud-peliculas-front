@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://perth-redback-cjma.2.us-1.fl0.io",
   timeout: 5000,
 });
 
